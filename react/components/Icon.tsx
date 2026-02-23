@@ -59,6 +59,7 @@ const Icon = ({
       className={`${isActive ? activeClassName || '' : mutedClassName || ''} ${
         handles[handle] || ''
       }`}
+      aria-hidden="true"
     >
       <Use id={id} />
     </Svg>
